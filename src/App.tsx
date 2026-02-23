@@ -928,7 +928,7 @@ function App() {
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground mb-1">Universitas Sumatera Utara</h3>
-                    <p className="text-sm text-muted-foreground mb-2">Teknik Informatika (D3) — 2013 - 2016</p>
+                    <p className="text-sm text-muted-foreground mb-2">Informatics Engineering Diploma — 2013 - 2016</p>
                     <div className="flex items-center gap-2">
                       <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">GPA: 3.30</span>
                     </div>
