@@ -48,7 +48,7 @@ const projects: Project[] = [
     title: 'Performance Management System',
     subtitle: 'Led enhancements in internal 360 tools through cross-functional collaboration',
     category: 'HR Tech',
-    year: '2022',
+    year: '2020',
     image: '/project_performance.jpg',
     description: 'Enhanced the internal 360-degree feedback and performance management system to improve employee evaluation processes and calibration workflows.',
     achievements: [
@@ -465,7 +465,7 @@ function App() {
             {/* Floating badge */}
             <div className="absolute -bottom-4 -right-4 lg:right-8 bg-primary text-white px-5 py-3 rounded-2xl card-shadow flex items-center gap-2">
               <Sparkles className="w-4 h-4" />
-              <span className="text-sm font-medium">5+ Years Exp.</span>
+              <span className="text-sm font-medium">7+ Years Exp.</span>
             </div>
           </div>
           
@@ -491,7 +491,7 @@ function App() {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6 mb-8">
               <div className="hero-stats">
-                <p className="text-2xl sm:text-3xl font-light text-primary">5+</p>
+                <p className="text-2xl sm:text-3xl font-light text-primary">7+</p>
                 <p className="text-xs text-muted-foreground mt-1">Years Experience</p>
               </div>
               <div className="hero-stats">
@@ -756,6 +756,53 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* Role 4 - Gopay Research Freelance */}
+            <div className="bg-card rounded-3xl p-6 lg:p-8 card-shadow group hover:-translate-y-1 transition-all duration-300">
+              <div className="flex flex-col lg:flex-row lg:items-start gap-6">
+                <div className="flex-shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-muted flex items-center justify-center">
+                    <Users className="w-7 h-7 text-primary" />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-foreground mb-2">Gopay Research Freelance</h3>
+                  <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-4">
+                    <span className="flex items-center gap-1.5">
+                      <Briefcase className="w-4 h-4" />
+                      GOTO GoPay
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <Calendar className="w-4 h-4" />
+                      Oct 2018 - Dec 2018
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <MapPin className="w-4 h-4" />
+                      Jakarta, Indonesia
+                    </span>
+                  </div>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Conducted market research to understand user behavior and product acceptance</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Supported user acceptance testing to validate product usability and readiness</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Provided research insights to support product and business decisions</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Market research and user acceptance testing</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
