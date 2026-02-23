@@ -582,7 +582,7 @@ function App() {
                 <Users className="w-6 h-6 text-primary group-hover:text-white transition-colors" />
               </div>
               <h3 className="font-medium text-foreground mb-3">HR & Operations</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Performance Management, Talent Management, Internal Comms</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Performance Management, Talent Management, Talent Acquisitions, Internal Comms</p>
             </div>
             
             <div className="group bg-card rounded-3xl p-6 card-shadow hover:-translate-y-1 transition-all duration-300">
@@ -803,6 +803,52 @@ function App() {
               </div>
             </div>
 
+            {/* Role 5 - Uber Competitive Intelligence */}
+            <div className="bg-card rounded-3xl p-6 lg:p-8 card-shadow group hover:-translate-y-1 transition-all duration-300">
+              <div className="flex flex-col lg:flex-row lg:items-start gap-6">
+                <div className="flex-shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-muted flex items-center justify-center">
+                    <TrendingUp className="w-7 h-7 text-primary" />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-lg font-medium text-foreground mb-2">Competitive Intelligence</h3>
+                  <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-4">
+                    <span className="flex items-center gap-1.5">
+                      <Briefcase className="w-4 h-4" />
+                      Uber Indonesia
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <Calendar className="w-4 h-4" />
+                      Jul 2017 - Jul 2018
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <MapPin className="w-4 h-4" />
+                      Medan, Indonesia
+                    </span>
+                  </div>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Market intelligence and competitor analysis</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Performed market research and competitor benchmarking analysis</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Collected and analyzed competitor data to support strategic insights</span>
+                    </li>
+                    <li className="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 flex-shrink-0" />
+                      <span>Delivered intelligence reports to support business and operational strategy</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -970,11 +1016,11 @@ function App() {
           <div>
             <span className="mono-label text-primary mb-4 block">Get in Touch</span>
             <h2 className="contact-headline text-3xl sm:text-4xl lg:text-[clamp(34px,3.6vw,52px)] font-light tracking-tight leading-[1.1] text-white mb-6">
-              Let's work{' '}
-              <span className="text-primary font-medium">together.</span>
+              Let's{' '}
+              <span className="text-primary font-medium">connect.</span>
             </h2>
             <p className="contact-body text-gray-400 text-lg mb-8 max-w-md leading-relaxed">
-              Open to analytics, product, and HR-tech projects. Available for freelance and advisory roles.
+              Interested to analytics, product, and HR-tech projects.
             </p>
             <button className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline">
               <Download className="w-4 h-4" />
@@ -999,22 +1045,7 @@ function App() {
               </a>
               
               <a 
-                href="https://wa.me/6282274944294"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/5 transition-colors group"
-              >
-                <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
-                  <Phone className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500 mb-1">WhatsApp</p>
-                  <p className="text-white">+62 822 7494 4294</p>
-                </div>
-              </a>
-              
-              <a 
-                href="https://linkedin.com/in/achmadfaiz"
+                href="https://www.linkedin.com/in/achmadf18/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-2xl hover:bg-white/5 transition-colors group"
@@ -1024,7 +1055,7 @@ function App() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 mb-1">LinkedIn</p>
-                  <p className="text-white">linkedin.com/in/achmadfaiz</p>
+                  <p className="text-white">linkedin.com/in/achmadfaiz18</p>
                 </div>
               </a>
               
