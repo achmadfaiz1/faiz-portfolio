@@ -15,7 +15,6 @@ import {
   BarChart3,
   Users,
   GraduationCap,
-  Phone,
   TrendingUp,
   Award,
   Briefcase,
