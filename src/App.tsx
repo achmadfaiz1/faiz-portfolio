@@ -504,10 +504,14 @@ function App() {
             </div>
             
             <div className="flex flex-wrap items-center gap-4">
-              <button className="hero-cta inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3.5 rounded-full text-sm font-medium hover:opacity-90 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/20">
+             <a 
+                href="/Faiz Resume.pdf"
+                download="Achmad_Faiz_Resume.pdf"
+                className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
+              >
                 <Download className="w-4 h-4" />
                 Download resume
-              </button>
+              </a>
               
               <button 
                 onClick={() => scrollToSection('contact')}
@@ -1021,10 +1025,14 @@ function App() {
             <p className="contact-body text-gray-400 text-lg mb-8 max-w-md leading-relaxed">
               Interested to analytics, product, and HR-tech projects.
             </p>
-            <button className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline">
+            <a 
+              href="/Faiz Resume.pdf"
+              download="Achmad_Faiz_Resume.pdf"
+              className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
+            >
               <Download className="w-4 h-4" />
               Download resume
-            </button>
+            </a>
           </div>
           
           {/* Contact Card */}
@@ -1073,10 +1081,8 @@ function App() {
       {/* Footer */}
       <footer className="bg-[#111216] text-white py-8 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-500">© 2026 Achmad Faiz. All rights reserved.</p>
+          <p className="text-sm text-gray-500">© 2026 Achmad Faiz.</p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Credits</a>
           </div>
         </div>
       </footer>
