@@ -49,7 +49,7 @@ const projects: Project[] = [
     category: 'HR Tech',
     year: '2020',
     image: '/project_performance.jpg',
-    description: 'Enhanced the internal 360-degree feedback and performance management system to improve employee evaluation processes and calibration workflows.',
+    description: 'Developed and enhanced the internal 360-degree feedback and performance management system to improve employee evaluation processes and calibration workflows.',
     achievements: [
       'Improved 360 feedback collection process with streamlined user interface',
       'Enhanced calibration analysis workflows for HR leaders',
@@ -472,7 +472,7 @@ function App() {
           <div className="order-1 lg:order-2 lg:pl-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span className="text-sm font-medium">Available for new opportunities</span>
+              <span className="text-sm font-medium">Available for future collaborations</span>
             </div>
             
             <h1 className="hero-headline text-4xl sm:text-5xl lg:text-[clamp(44px,5vw,72px)] font-light tracking-tight leading-[1.05] text-foreground mb-4">
@@ -623,6 +623,7 @@ function App() {
           
           {/* Experience Cards */}
           <div className="section-content space-y-6">
+
             {/* Role 1 - Performance Data Analyst */}
             <div className="bg-card rounded-3xl p-6 lg:p-8 card-shadow group hover:-translate-y-1 transition-all duration-300">
               <div className="flex flex-col lg:flex-row lg:items-start gap-6">
@@ -764,7 +765,7 @@ function App() {
               <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-14 h-14 rounded-2xl bg-muted flex items-center justify-center">
-                    <Users className="w-7 h-7 text-primary" />
+                    <Users className="w-7 h-7 text-muted-foreground" />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -810,7 +811,7 @@ function App() {
               <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-14 h-14 rounded-2xl bg-muted flex items-center justify-center">
-                    <TrendingUp className="w-7 h-7 text-primary" />
+                    <TrendingUp className="w-7 h-7 text-muted-foreground" />
                   </div>
                 </div>
                 <div className="flex-1">
