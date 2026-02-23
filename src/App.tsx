@@ -472,7 +472,7 @@ function App() {
           <div className="order-1 lg:order-2 lg:pl-4">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span className="text-sm font-medium">Available for opportunities</span>
+              <span className="text-sm font-medium">Available for new opportunities</span>
             </div>
             
             <h1 className="hero-headline text-4xl sm:text-5xl lg:text-[clamp(44px,5vw,72px)] font-light tracking-tight leading-[1.05] text-foreground mb-4">
@@ -529,7 +529,7 @@ function App() {
               <div className="w-1 h-1 rounded-full bg-muted-foreground" />
               <div className="flex items-center gap-3">
                 <a 
-                  href="https://linkedin.com/in/achmadfaiz" 
+                  href="https://www.linkedin.com/in/achmadf18/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 rounded-full hover:bg-secondary transition-colors"
