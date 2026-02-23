@@ -504,14 +504,13 @@ function App() {
             </div>
             
             <div className="flex flex-wrap items-center gap-4">
-             <a 
-                href="/Faiz Resume.pdf"
-                download="Achmad_Faiz_Resume.pdf"
-                className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
+              <button 
+                onClick={() => window.open('/Faiz Resume.pdf', '_blank')}
+                className="hero-cta inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3.5 rounded-full text-sm font-medium hover:opacity-90 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/20"
               >
                 <Download className="w-4 h-4" />
                 Download resume
-              </a>
+              </button>
               
               <button 
                 onClick={() => scrollToSection('contact')}
@@ -1025,14 +1024,13 @@ function App() {
             <p className="contact-body text-gray-400 text-lg mb-8 max-w-md leading-relaxed">
               Interested to analytics, product, and HR-tech projects.
             </p>
-            <a 
-              href="/Faiz Resume.pdf"
-              download="Achmad_Faiz_Resume.pdf"
-              className="inline-flex items-center gap-2 text-primary text-sm font-medium hover:underline"
+            <button 
+              onClick={() => window.open('/Faiz Resume.pdf', '_blank')}
+              className="hero-cta inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3.5 rounded-full text-sm font-medium hover:opacity-90 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/20"
             >
               <Download className="w-4 h-4" />
               Download resume
-            </a>
+            </button>
           </div>
           
           {/* Contact Card */}
