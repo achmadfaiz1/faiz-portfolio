@@ -52,7 +52,7 @@ const projects: Project[] = [
     description: 'Developed and enhanced the internal 360-degree feedback and performance management system to improve employee evaluation processes and calibration workflows.',
     achievements: [
       'Improved 360 feedback collection process with streamlined user interface',
-      'Enhanced calibration analysis workflows for HR leaders',
+      'Enhanced calibration workflows for HR teams and leaders',
       'Collaborated with engineering teams to implement system improvements',
       'Supported system reliability through continuous testing and iteration',
       'Delivered performance insights and calibration analysis for HR leaders'
@@ -482,7 +482,7 @@ function App() {
             </h1>
             
             <p className="hero-subheadline text-xl sm:text-2xl text-muted-foreground font-light mb-8">
-              Performance Data Analyst & HR Tech Specialist
+              Performance Management & People Data Analytics
             </p>
             
             <div className="hero-hairline hairline w-full max-w-xs mb-8 origin-left" />
