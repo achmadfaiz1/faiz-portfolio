@@ -479,7 +479,7 @@ function App() {
             <h1 className="hero-headline text-4xl sm:text-5xl lg:text-[clamp(44px,5vw,72px)] font-light tracking-tight leading-[1.05] text-foreground mb-4">
               <span className="inline-block">Hello,</span>{' '}
               <span className="inline-block">I'm</span>{' '}
-              <span className="inline-block font-medium">Achmad.</span>
+              <span className="inline-block font-medium">Faiz.</span>
             </h1>
             
             <p className="hero-subheadline text-xl sm:text-2xl text-muted-foreground font-light mb-8">
