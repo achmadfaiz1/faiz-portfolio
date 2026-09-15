@@ -59,6 +59,16 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Keep section titles clear of the fixed nav on smooth scroll */
+  #hero,
+  #skills,
+  #experience,
+  #projects,
+  #education,
+  #contact {
+    scroll-margin-top: 5.5rem;
+  }
   
   body {
     @apply bg-background text-foreground antialiased;
